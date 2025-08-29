@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuestro trabajo — Printupack</title>
+  <link rel="icon" href="assets/img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- Header global -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Inicio Printupack">
+      <img src="assets/img/logo.png" alt="Printupack logo" />
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-controls="menu">☰</button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="sobre.html">Sobre nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="trabajo.html" aria-current="page">Nuestro trabajo</a>
+      <a href="logros.html">Logros</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Contenido de la página -->
+  <main class="page">
+    <h1>Nuestro trabajo</h1>
+
+    <section>
+      <h2>Galería</h2>
+      <div class="grid three gallery">
+        <figure class="card">
+          <img src="assets/img/catalogo/exhibidores.png" alt="Exhibidores">
+          <figcaption>Exhibidores</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="assets/img/catalogo/totem.png" alt="Tótems">
+          <figcaption>Tótems</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="assets/img/catalogo/exhibicion.png" alt="Exhibición de producto">
+          <figcaption>Exhibición de producto</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="assets/img/catalogo/creatividad.png" alt="Creatividad y Tecnología">
+          <figcaption>Creatividad &amp; Tecnología</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="assets/img/catalogo/calidad.png" alt="Calidad e Innovación">
+          <figcaption>Calidad &amp; Innovación</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="assets/img/catalogo/contenido.png" alt="Líneas de servicio">
+          <figcaption>Líneas de servicio</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CTA de contacto reutilizable -->
+    <section class="contact-cta">
+      <div class="contact-cta__box">
+        <h2>¿Lista tu próxima pieza?</h2>
+        <p>Escríbenos y cuéntanos sobre tu proyecto. Respondemos rápido.</p>
+        <div class="cta-row">
+          <a class="btn" href="index.html#contacto">Contáctanos</a>
+          <a class="btn ghost" href="assets/docs/catalogo_printupack.pdf" download>Descargar catálogo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer global -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <strong>Printupack</strong><br />
+        Calle 8 #26-36 Bogotá, Colombia
+      </div>
+      <div>
+        <a href="https://www.instagram.com/printucolombia?igsh=ZTR0ZmlzNHpkMjR1" target="_blank" rel="noopener">Instagram oficial</a>
+      </div>
+    </div>
+    <p class="copy">© <span id="year"></span> Printupack. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

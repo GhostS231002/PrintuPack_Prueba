@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Printupack — Soluciones de impresión</title>
+  <link rel="icon" href="assets/img/Imagen_icon_title.jpg" type="image/png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="description" content="Empaques, POP y gran formato. Calidad, agilidad y diseño para tu marca."/>
+</head>
+<body data-enable-whatsapp="false">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="Printupack logo" />
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-controls="menu">☰</button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="sobre.html">Sobre nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="trabajo.html">Nuestro trabajo</a>
+      <a href="logros.html">Logros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero minimal -->
+    <section class="hero">
+      <div class="hero-inner">
+        <img class="hero-logo" src="assets/img/logo.png" alt="Printupack" />
+        <p class="subtitle">Empaques, material POP y gran formato con calidad de exportación.</p>
+        <div class="cta-row">
+          <a class="btn" href="servicios.html">Ver servicios</a>
+          <a class="btn ghost" href="assets/docs/catalogo_printupack.pdf" download>Descargar catálogo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 cards -->
+    <section class="cards">
+      <a class="card" href="sobre.html">
+        <h3>Sobre nosotros</h3>
+        <p>Quiénes somos, misión, visión y experiencia.</p>
+        <span class="link">Conocer más →</span>
+      </a>
+      <a class="card" href="servicios.html">
+        <h3>Servicios</h3>
+        <p>Empaques, POP, exhibidores, gran formato y más.</p>
+        <span class="link">Explorar →</span>
+      </a>
+      <a class="card" href="trabajo.html">
+        <h3>Nuestro trabajo</h3>
+        <p>Proyectos y piezas destacadas para marcas.</p>
+        <span class="link">Ver portafolio →</span>
+      </a>
+      <a class="card" href="logros.html">
+        <h3>Logros</h3>
+        <p>Hitos, reconocimientos y casos de éxito.</p>
+        <span class="link">Descubrir →</span>
+      </a>
+    </section>
+
+    <!-- Contacto V5 -->
+    <section id="contacto" class="contacto">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contacto</h2>
+          <ul class="list">
+            <li><strong>Correo:</strong> <a href="mailto:contacto@printupack.co">contacto@printupack.co</a></li>
+            <li><strong>Teléfono:</strong> <a href="tel:+573001234567">+57 300 123 4567</a></li>
+            <li><strong>Horario:</strong> Lunes a Viernes, 8:00–17:00</li>
+            <li><strong>Dirección:</strong> Calle 8 #26-36 Bogotá, Colombia</li>
+            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/printucolombia?igsh=ZTR0ZmlzNHpkMjR1" target="_blank" rel="noopener">@printucolombia</a></li>
+          </ul>
+          <a class="btn small" href="assets/docs/catalogo_printupack.pdf" download>Descargar catálogo</a>
+        </div>
+
+        <form class="contact-form" action="#" method="post" onsubmit="return false;">
+          <label>Nombre
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+          </label>
+          <label>Correo
+            <input type="email" name="email" placeholder="tu@email.com" required>
+          </label>
+          <label>Teléfono
+            <input type="tel" name="telefono" placeholder="+57 ..." required>
+          </label>
+          <label>Interés
+            <select name="interes" required>
+              <option value="" selected disabled>Selecciona una opción</option>
+              <option>Empaques</option>
+              <option>Material POP</option>
+              <option>Gran formato</option>
+              <option>Exhibidores</option>
+              <option>Diseño & prototipado</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+          </label>
+          <button class="btn" type="submit">Enviar</button>
+          <p class="form-note">*Este formulario es demostrativo. Configura el endpoint en <code>assets/js/main.js</code>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <strong>Printupack</strong><br/>
+        Calle 8 #26-36 Bogotá, Colombia
+      </div>
+      <div>
+        <a href="https://www.instagram.com/printucolombia?igsh=ZTR0ZmlzNHpkMjR1" target="_blank" rel="noopener">Instagram oficial</a>
+      </div>
+    </div>
+    <p class="copy">© <span id="year"></span> Printupack. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- WhatsApp flotante (opcional) -->
+  <a id="wa-float" class="wa-float" href="https://wa.me/573001234567" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
